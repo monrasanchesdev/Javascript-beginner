@@ -41,3 +41,18 @@ contador++; // contador = contador + 1;
 
 console.log('Incremento: ', contador); // 6
 
+contador--;//contador = contador - 1;
+
+console.log('Decremento: ', contador); // 5
+
+let numeroTres = 2;
+
+numeroTres *= 2;//numeroTres = numeroTres * 2;
+
+// numeroTres -= 1; // numeroTres = numeroTres - 1;
+// numeroTres /= 2; // numeroTres = numeroTres / 2;
+// numeroTres += 1; // numeroTres = numeroTres ** 1;
+// numeroTres %= 1; // numeroTres = numeroTres % 1;
+
+console.log('numeroTres: ', numeroTres); // 4
+
