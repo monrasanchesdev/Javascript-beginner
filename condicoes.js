@@ -24,8 +24,29 @@ if (nome) {
 
 const idade = null;
 
-if (idade >= 18) {
+if (idade != null && idade >= 18) {
     console.log('Você é maior de idade');
-} else {
+} else if (idade != null && idade < 18){
     console.log('Você é menor de idade');
 }
+
+// tem duas condições se repetindo, idade != null, então podemos simplificar o código, colocando a condição idade != null apenas uma vez, e dentro do if verificar se é maior ou menor de idade
+
+if (idade != null) {
+    if (idade >= 18) {
+        console.log('Você é maior de idade');
+    } else if (idade < 18) {
+        console.log('Você é menor de idade');
+    }
+}
+
+
+// Existem outros valores que são considerados falsy, ou seja, são considerados false, como o número 0, undefined, null e string vazia
+
+const numero = 0;
+const indefinido = undefined;
+const nulo = null;
+const textoVazio = '';
+
+
+
